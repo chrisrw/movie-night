@@ -35,13 +35,16 @@ render() {
     <div className="gridContainer">
       <header className="header">
         <nav>
-          <h2>Movie Night</h2>
+          <Link to='/'><h2>Movie Night</h2></Link>
         </nav>
       </header>
       <div className="mainContent">
-        main content
-        <MainMovieContent/>
+        <Switch>
+        <Route exact path={'/:movieTitle'} render={(props) => <MainMovieContent {...props} results={this.state.results}/>} />
+        <Route path='/' render={() => <div>Select a movie!</div>}/>
+        </Switch>
       </div>
+      
       <div className="sideContent">
         <SideContent results={this.state.results} />
       </div>
