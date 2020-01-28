@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import "./App.css";
 import SideContent from './components/sidecontent/SideContent';
 import {Route, Switch, Link} from 'react-router-dom'
-import MainMovieContent from './components/maincontent/MainMovieContent'
+import MainMovieContent from './components/maincontent/MainMovieContent';
+import logo from './images/food.png'
 
 const apiInfo = {
   key: process.env.REACT_APP_MOVIE_NIGHT_KEY,
@@ -35,16 +36,47 @@ render() {
     <div className="gridContainer">
       <header className="header">
         <nav>
-          <Link to='/'><h2>Movie Night</h2></Link>
+          <Link to="/">
+            <img src={logo} className="left" alt="ice cream logo"></img>
+            <h2>Movie Night</h2>
+          </Link>
         </nav>
       </header>
       <div className="mainContent">
         <Switch>
-        <Route exact path={'/:movieTitle'} render={(props) => <MainMovieContent {...props} results={this.state.results}/>} />
-        <Route path='/' render={() => <div>Select a movie!</div>}/>
+          <Route
+            exact
+            path={"/:movieTitle"}
+            render={props => (
+              <MainMovieContent {...props} results={this.state.results} />
+            )}
+          />
+          <Route
+            path="/"
+            render={() => (
+              <div className="defaultMain">
+                Select a movie!
+                <br></br>
+                <small>
+                  Ice cream icon made by{" "}
+                  <a
+                    href="https://www.flaticon.com/authors/freepik"
+                    title="Freepik"
+                  >
+                    Freepik
+                  </a>{" "}
+                  from{" "}
+                  <a href="https://www.flaticon.com/" title="Flaticon">
+                    {" "}
+                    www.flaticon.com
+                  </a>
+                </small>
+              </div>
+            )}
+          />
         </Switch>
       </div>
-      
+
       <div className="sideContent">
         <SideContent results={this.state.results} />
       </div>
