@@ -8,8 +8,7 @@ import './mainContent.css';
 export class MainMovieContent extends Component {
     render() {
         let movieInfo = this.props.results.find(movie => movie.title === this.props.match.params.movieTitle);
-       console.log(movieInfo)
-      let thisMovie = {...movieInfo}
+        let thisMovie = {...movieInfo}
         return (
           <div className='mainContainer'> 
               <MovieTitle className='title' thisMovie={thisMovie}/>

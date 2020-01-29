@@ -4,7 +4,7 @@
 }
 .gridContainer {
  display: grid;
- grid-template-columns: 200px 1fr;
+ grid-template-columns: 230px 1fr;
  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr ;
  height: 100vh;
 

@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movie Night App
 
-## Available Scripts
+![](planning/MovieNight.png)
 
-In the project directory, you can run:
+# About Movie Night App
 
-### `npm start`
+The Movie Night App was created to solve an issue that has plagued my life for years. I love watching movies in theaters, but how do you know the movie you want to see is any good? Is it worth your time? What is the movie even about? This app can answer all of those questions, and prevent you from wasting your time seeing a bad movie.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Accessing the application
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+You can find the application deployed via Heroku at the following address:
 
-### `npm test`
+https://movie-night-cw.herokuapp.com/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you would like to play around with the code locally, you can also clone the repo here:
 
-### `npm run build`
+https://github.com/chrisrw/movie-night
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+It's friday night, you want to see a movie with a loved one, but threaten you saying "if you pick another bad movie, you don't get to pick movies for us to watch anymore!" Frightened, you start to look for movies to watch and the associated reviews for them. You pull up aggregated movie review sites and think to yourself "there is too much stuff happening on this website, I need concise information about movies that are in theaters!"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Just then, you notice your computer monitor lights up brightly. It navigates to the "movie-night-cw" app on Heroku. You notice it's an aesthetically pleasing and simple application that will give you the tools to make an informed movie selection decision.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Don't let your loved one take the power of choosing movies away from you. Keep that power, with the Movie Night App.
