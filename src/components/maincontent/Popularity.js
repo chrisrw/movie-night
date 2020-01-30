@@ -4,10 +4,8 @@ export class Popularity extends Component {
   render() {
     return (
       <div className="popularity">
-        <p>
-          <p className="info">Popularity</p>
-          <p className="center">{this.props.thisMovie.popularity}</p>
-        </p>
+        <p className="info">Popularity</p>
+        <p className="center">{this.props.thisMovie.popularity}</p>
         <br></br>
         <p className="info">How is popularity Measured?</p>
         <ul>
