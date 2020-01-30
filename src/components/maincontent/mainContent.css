@@ -5,7 +5,7 @@
 .mainContainer {
   display: grid;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 50px 1fr 50px;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   background: #fdf5c9;
   height: 100vh;
 }
@@ -61,7 +61,7 @@ small {
 }
 .popularity {
   grid-column: 4/6;
-  grid-row: 6;
+  grid-row: 7;
   justify-self: end;
   align-self: end;
   line-height: 1.5em;
@@ -75,7 +75,7 @@ small {
 
 .vote {
   grid-column: 2/4;
-  grid-row: 6;
+  grid-row: 7;
   justify-self: start;
   align-self: end;
   line-height: 2em;
@@ -107,7 +107,7 @@ small {
   }
   .vote {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 6;
     justify-self: start;
     padding: 0.2em;
   }
@@ -116,7 +116,7 @@ small {
   }
   .popularity {
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 6;
     padding: 0.2em;
   }
 }
