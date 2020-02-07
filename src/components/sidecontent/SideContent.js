@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class SideContent extends Component {
   render() {
@@ -8,12 +8,12 @@ export class SideContent extends Component {
       return (
         <div
           key={index}
-          style={{ textAlign: "center", border: "1px solid black" }}
+          style={{ textAlign: 'center', border: '1px solid black' }}
         >
           <Link to={`${movie.title}`}>
             <h3>{movie.title}</h3>
             <img
-              className="sideMoviePoster"
+              className='sideMoviePoster'
               alt={movie.title}
               src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
             ></img>
