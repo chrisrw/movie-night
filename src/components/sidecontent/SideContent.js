@@ -8,7 +8,7 @@ export class SideContent extends Component {
       return (
         <div
           key={index}
-          style={{ textAlign: "center", border: "1px solid black" }}
+          style={{ textAlign: "center", border: "1px solid black"}}
         >
           <Link to={`${movie.title}`}>
             <h3>{movie.title}</h3>
